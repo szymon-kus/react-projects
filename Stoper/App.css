@@ -1,0 +1,65 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  color: #333;
+}
+
+.timer {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.miliseconds {
+  color: #00c3ff;
+}
+.seconds {
+  color: #ffae00;
+}
+
+.minutes {
+  color: #e75b5b;
+}
+.hours {
+  color: #00ff55;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.start {
+  background-color: #28a745; /* Zielony */
+  color: white;
+}
+
+.stop {
+  background-color: #dc3545; /* Czerwony */
+  color: white;
+}
+
+.reset {
+  background-color: #ffc107; /* Żółty */
+  color: #333;
+}
+
+button:hover {
+  opacity: 0.8;
+}
